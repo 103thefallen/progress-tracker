@@ -10,6 +10,102 @@
   <title>Progress Tracker - Task - time:time</title>
 </head>
 <body>
-  
+  <div class="screen">
+    <!--<div class="reg-screen">
+      <div class="reg-screen__title">Progress Tracker</div>
+      <form action="">
+        <label for="username">Username</label>
+        <input type="text" id="username">
+        <button class="full-button">Register</button>
+      </form>
+    </div>-->
+
+    <div class="main-screen">
+      <div class="status-bar">
+        <div class="status-username">Username</div>
+        <div class="status-date">03.03.2022</div>
+      </div>
+      <div class="timer-bar">
+        <div class="timer__task">Task name</div>
+        <div class="timer__timer">00:00:00</div>
+        <div class="timer__controls">
+          <button class="start">Start</button>
+          <button class="stop">Stop & submit</button>
+        </div>
+      </div>
+      <div class="task-bar">
+        <div class="task-add">
+          <form class="task-add__task">
+            <button class="task-add__button task-add__button-task">Add a task</button>
+            <input type="text" class="task-add__input">
+          </form>
+          <form class="task-add__tags">
+            <button class="task-add__button task-add__button-tags task-add__button--tags">Add a tag</button>
+            <input type="text" class="task-add__input task-add__input--tags">
+            <input type="checkbox" name="is-positive" id="is-positive">
+          </form>
+          <button class="task-add__button">Save</button>
+        </div>
+
+        <div class="task-list">
+          <div class="task-item">
+            <div class="task-title">Task name</div>
+            <div class="task-meta-short">
+              <div class="task-elapsed">00:00</div>
+              <div class="task-tag">Tag name <div class="task-tag__is-positive">task-tag__is-positive</div></div>
+            </div>
+            <div class="task-meta">
+              <div class="task-description">Very descriptive description of a placeholder task, which hasn't been even executed yet.</div>
+              <div class="task-sessions">
+                <div class="task-session">
+                  <div class="task-session__time">00:00 - 02:06</div>
+                  <div class="task-session__elapsed">2:06:00</div>
+                </div>
+                <div class="task-session">
+                  <div class="task-session__time">02:06 - 02:38</div>
+                  <div class="task-session__elapsed">02:22</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="task-item">
+            <div class="task-title">Task name</div>
+            <div class="task-meta-short">
+              <div class="task-elapsed">00:00</div>
+              <div class="task-tag">Tag name <div class="task-tag__is-positive">task-tag__is-positive</div></div>
+            </div>
+            <div class="task-meta">
+              <div class="task-description">Very descriptive description of a placeholder task, which hasn't been even executed yet.</div>
+              <div class="task-sessions">
+                <div class="task-session">
+                  <div class="task-session__time">00:00 - 02:06</div>
+                  <div class="task-session__elapsed">2:06:00</div>
+                </div>
+                <div class="task-session">
+                  <div class="task-session__time">02:06 - 02:38</div>
+                  <div class="task-session__elapsed">02:22</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-menu">
+          <div class="menu-optional">
+            <div class="menu-optional__share">
+              <button class="menu-optional__button">Share</button>
+              <button class="menu-optional__button">Friends</button>
+            </div>
+          </div>
+          <div class="menu-main">
+            <div class="menu-main__calendar">
+              <button class="menu-main__button">Calendar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
